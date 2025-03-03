@@ -1,4 +1,4 @@
-class StringCalculator {
+export class StringCalculator {
     add(numbers: string): number {
       if (!numbers) return 0;
       
@@ -21,4 +21,4 @@ console.log(stringCalculator.add("1,5"));
 console.log(stringCalculator.add("4,5,6")); 
 console.log(stringCalculator.add("1\n2,3")); 
 
-module.exports = { StringCalculator };
+// module.exports = { StringCalculator };
