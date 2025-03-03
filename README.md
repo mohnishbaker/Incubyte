@@ -17,3 +17,8 @@ Node.js is a pre-requisite. To install the dependencies :
 Run calculator testcases using : 
 
 ``` npm run test ```
+
+You can also run the calculator file individually using: 
+
+``` npx tsx calculator.ts ```
+
